@@ -6,7 +6,7 @@ const packageJson = require('./package.json');
 console.log(packageJson); // 输出 package.json 中的 name 字段
 let filePath = packageJson.config.filePath
 
-filePath = `C:\\Users\\zhangmaosong\\Downloads\\PMS.openapi.json`
+// filePath = `C:\\Users\\zhangmaosong\\Downloads\\PMS.openapi.json`
 
 let str = fs.readFileSync(filePath, 'utf-8')
 
