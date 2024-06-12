@@ -1,0 +1,25 @@
+root = true
+
+[*]
+charset = utf-8
+
+# 设置使用那种缩进风格(tab是制表符，space是空格)
+indent_style = space
+
+# 定义用于每个缩进级别的空格数
+indent_size = 4
+
+# 设置换行符，值为lf、cr和crlf
+[*]
+end_of_line = lf 
+# 对于批处理脚本（.bat 和 .cmd 文件），我们使用 CRLF，因为这是Windows系统的标准。
+[*.{bat,cmd}]
+end_of_line = crlf
+
+# 设置为true以确保文件在保存时以换行符结尾
+# 如果设置为true，则文件最后一行也会确保以换行符结尾，会强制换行到下一行  ***
+insert_final_newline = true
+
+# 设置为true则删除换行符之前的任何空白字符
+# 设置为true会删除每一行后的任何空格  ***
+trim_trailing_whitespace = true

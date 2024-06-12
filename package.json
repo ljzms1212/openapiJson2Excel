@@ -1,0 +1,17 @@
+{
+  "name": "openapijson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  },
+  "config": {
+    "filePath": "C:\\Users\\zhangmaosong\\Downloads\\PMS.openapi.json"
+  }
+}
